@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-08T12:26:38 IST" name="Suite" finished-at="2024-08-08T12:28:23 IST" duration-ms="105066">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T12:26:38 IST" name="Test1" finished-at="2024-08-08T12:26:53 IST" duration-ms="14606">
+      <class name="com.store.TestCases.SignUp">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.store.TestCases.SignUp@6aeb35e6]" started-at="2024-08-08T12:26:38 IST" name="setup" finished-at="2024-08-08T12:26:42 IST" duration-ms="3954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.store.TestCases.SignUp@6aeb35e6]" started-at="2024-08-08T12:26:42 IST" name="beforeMethod" finished-at="2024-08-08T12:26:42 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSignUpFunction()[pri:0, instance:com.store.TestCases.SignUp@6aeb35e6]" started-at="2024-08-08T12:26:42 IST" name="testSignUpFunction" finished-at="2024-08-08T12:26:51 IST" duration-ms="8964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpFunction -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.store.TestCases.SignUp@6aeb35e6]" started-at="2024-08-08T12:26:51 IST" name="afterMethod" finished-at="2024-08-08T12:26:52 IST" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.store.TestCases.SignUp@6aeb35e6]" started-at="2024-08-08T12:26:52 IST" name="close" finished-at="2024-08-08T12:26:53 IST" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.store.TestCases.SignUp -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-08-08T12:26:53 IST" name="Test2" finished-at="2024-08-08T12:27:17 IST" duration-ms="23821">
+      <class name="com.store.TestCases.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.store.TestCases.Login@2d3379b4]" started-at="2024-08-08T12:26:53 IST" name="setup" finished-at="2024-08-08T12:27:00 IST" duration-ms="7015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.store.TestCases.Login@2d3379b4]" started-at="2024-08-08T12:27:00 IST" name="beforeMethod" finished-at="2024-08-08T12:27:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLogin()[pri:0, instance:com.store.TestCases.Login@2d3379b4]" started-at="2024-08-08T12:27:00 IST" name="testLogin" finished-at="2024-08-08T12:27:08 IST" duration-ms="8438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.store.TestCases.Login@2d3379b4]" started-at="2024-08-08T12:27:08 IST" name="afterMethod" finished-at="2024-08-08T12:27:09 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.store.TestCases.Login@2d3379b4]" started-at="2024-08-08T12:27:09 IST" name="beforeMethod" finished-at="2024-08-08T12:27:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testInvalidUsernameandpassword()[pri:1, instance:com.store.TestCases.Login@2d3379b4]" started-at="2024-08-08T12:27:09 IST" name="testInvalidUsernameandpassword" finished-at="2024-08-08T12:27:15 IST" duration-ms="6726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUsernameandpassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.store.TestCases.Login@2d3379b4]" started-at="2024-08-08T12:27:15 IST" name="afterMethod" finished-at="2024-08-08T12:27:15 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.store.TestCases.Login@2d3379b4]" started-at="2024-08-08T12:27:15 IST" name="close" finished-at="2024-08-08T12:27:17 IST" duration-ms="1176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.store.TestCases.Login -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-08-08T12:27:17 IST" name="Test3" finished-at="2024-08-08T12:27:23 IST" duration-ms="6559">
+      <class name="com.store.TestCases.HomePage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.store.TestCases.HomePage@4afcd809]" started-at="2024-08-08T12:27:17 IST" name="setup" finished-at="2024-08-08T12:27:20 IST" duration-ms="3029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.store.TestCases.HomePage@4afcd809]" started-at="2024-08-08T12:27:20 IST" name="beforeMethod" finished-at="2024-08-08T12:27:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testHomeFunction()[pri:0, instance:com.store.TestCases.HomePage@4afcd809]" started-at="2024-08-08T12:27:20 IST" name="testHomeFunction" finished-at="2024-08-08T12:27:22 IST" duration-ms="2657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeFunction -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.store.TestCases.HomePage@4afcd809]" started-at="2024-08-08T12:27:22 IST" name="afterMethod" finished-at="2024-08-08T12:27:22 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.store.TestCases.HomePage@4afcd809]" started-at="2024-08-08T12:27:22 IST" name="close" finished-at="2024-08-08T12:27:23 IST" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.store.TestCases.HomePage -->
+    </test> <!-- Test3 -->
+    <test started-at="2024-08-08T12:27:23 IST" name="Test4" finished-at="2024-08-08T12:27:37 IST" duration-ms="13740">
+      <class name="com.store.TestCases.CartPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.store.TestCases.CartPage@75d4a5c2]" started-at="2024-08-08T12:27:23 IST" name="setup" finished-at="2024-08-08T12:27:26 IST" duration-ms="2447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCartFunction()[pri:0, instance:com.store.TestCases.CartPage@75d4a5c2]" started-at="2024-08-08T12:27:26 IST" name="testCartFunction" finished-at="2024-08-08T12:27:36 IST" duration-ms="10061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartFunction -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.store.TestCases.CartPage@75d4a5c2]" started-at="2024-08-08T12:27:26 IST" name="beforeMethod" finished-at="2024-08-08T12:27:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.store.TestCases.CartPage@75d4a5c2]" started-at="2024-08-08T12:27:36 IST" name="afterMethod" finished-at="2024-08-08T12:27:36 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.store.TestCases.CartPage@75d4a5c2]" started-at="2024-08-08T12:27:36 IST" name="close" finished-at="2024-08-08T12:27:37 IST" duration-ms="1148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.store.TestCases.CartPage -->
+    </test> <!-- Test4 -->
+    <test started-at="2024-08-08T12:27:37 IST" name="Test5" finished-at="2024-08-08T12:27:37 IST" duration-ms="2">
+    </test> <!-- Test5 -->
+    <test started-at="2024-08-08T12:27:37 IST" name="Test6" finished-at="2024-08-08T12:28:08 IST" duration-ms="31394">
+      <class name="com.store.TestCases.PlaceOrderPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.store.TestCases.PlaceOrderPage@477b4cdf]" started-at="2024-08-08T12:27:37 IST" name="setup" finished-at="2024-08-08T12:27:48 IST" duration-ms="11441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.store.TestCases.PlaceOrderPage@477b4cdf]" started-at="2024-08-08T12:27:48 IST" name="beforeMethod" finished-at="2024-08-08T12:27:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="placeOrder()[pri:0, instance:com.store.TestCases.PlaceOrderPage@477b4cdf]" started-at="2024-08-08T12:27:48 IST" name="placeOrder" finished-at="2024-08-08T12:28:07 IST" duration-ms="18557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.store.TestCases.PlaceOrderPage@477b4cdf]" started-at="2024-08-08T12:28:07 IST" name="afterMethod" finished-at="2024-08-08T12:28:07 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.store.TestCases.PlaceOrderPage@477b4cdf]" started-at="2024-08-08T12:28:07 IST" name="close" finished-at="2024-08-08T12:28:08 IST" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.store.TestCases.PlaceOrderPage -->
+    </test> <!-- Test6 -->
+    <test started-at="2024-08-08T12:28:08 IST" name="Test7" finished-at="2024-08-08T12:28:23 IST" duration-ms="14830">
+      <class name="com.store.TestCases.ContactPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.store.TestCases.ContactPage@185a6e9]" started-at="2024-08-08T12:28:08 IST" name="setup" finished-at="2024-08-08T12:28:11 IST" duration-ms="3017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.store.TestCases.ContactPage@185a6e9]" started-at="2024-08-08T12:28:11 IST" name="beforeMethod" finished-at="2024-08-08T12:28:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testContactForm()[pri:0, instance:com.store.TestCases.ContactPage@185a6e9]" started-at="2024-08-08T12:28:11 IST" name="testContactForm" finished-at="2024-08-08T12:28:21 IST" duration-ms="9787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactForm -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.store.TestCases.ContactPage@185a6e9]" started-at="2024-08-08T12:28:21 IST" name="afterMethod" finished-at="2024-08-08T12:28:21 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.store.TestCases.ContactPage@185a6e9]" started-at="2024-08-08T12:28:21 IST" name="close" finished-at="2024-08-08T12:28:23 IST" duration-ms="1851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.store.TestCases.ContactPage -->
+    </test> <!-- Test7 -->
+  </suite> <!-- Suite -->
+</testng-results>
